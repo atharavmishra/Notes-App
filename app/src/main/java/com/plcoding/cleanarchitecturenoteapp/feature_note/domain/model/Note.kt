@@ -7,7 +7,7 @@ import com.plcoding.cleanarchitecturenoteapp.ui.theme.*
 data class Note(val title : String,
     val content: String,
     val timestamp: String,
-    val colot : Int,
+    val color : Int,
      @PrimaryKey   val id : Int? = null
 ){
     companion object{
