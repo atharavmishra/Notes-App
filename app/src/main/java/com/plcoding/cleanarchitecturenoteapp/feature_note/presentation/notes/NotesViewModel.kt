@@ -8,7 +8,6 @@ import javax.inject.Inject
 @HiltViewModel
 class NotesViewModel @Inject constructor(private val notesUseCases: NotesUseCases):ViewModel(){
 
-    private val noteUseCase
 fun onEvent(event: NotesEvent){
     when (event){
         is NotesEvent.Order -> {
